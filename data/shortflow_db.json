@@ -1,0 +1,64 @@
+{
+  "videos": [],
+  "messages": [],
+  "jobs": [],
+  "accounts": [
+    {
+      "platform": "telegram",
+      "name": "Telegram Bot (Muse AI Receiver)",
+      "status": "not_configured"
+    },
+    {
+      "platform": "facebook",
+      "name": "Facebook Page (Meta Graph API)",
+      "status": "not_configured"
+    },
+    {
+      "platform": "instagram",
+      "name": "Instagram Professional",
+      "status": "not_configured"
+    },
+    {
+      "platform": "youtube",
+      "name": "YouTube Channel (Data API v3)",
+      "status": "not_configured"
+    }
+  ],
+  "logs": [],
+  "notifications": [],
+  "settings": {
+    "timezone": "Asia/Dhaka",
+    "auto_publish_min_confidence": 85,
+    "matching_window_minutes": 30,
+    "publishing_slots": {
+      "facebook": [
+        "14:00",
+        "19:00",
+        "22:00"
+      ],
+      "instagram": [
+        "13:30",
+        "18:30",
+        "21:30"
+      ],
+      "youtube": [
+        "15:00",
+        "20:00",
+        "23:00"
+      ]
+    },
+    "max_retries": 3,
+    "telegram_bot_token": "",
+    "telegram_webhook_secret": "shortflow_secret_token_2026",
+    "telegram_chat_id_alerts": "",
+    "notify_telegram_on_success": true,
+    "notify_telegram_on_failure": true,
+    "notify_telegram_on_review": true,
+    "meta_access_token": "",
+    "meta_page_id": "",
+    "meta_instagram_id": "",
+    "youtube_client_id": "",
+    "youtube_refresh_token": "",
+    "youtube_channel_id": ""
+  }
+}

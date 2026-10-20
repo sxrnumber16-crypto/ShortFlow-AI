@@ -1,0 +1,6 @@
+{
+  "name": "ShortFlow AI",
+  "description": "স্বয়ংক্রিয় এআই শর্টস প্রকাশনা ও শিডিউলিং প্ল্যাটফর্ম (Facebook, Instagram, YouTube)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
